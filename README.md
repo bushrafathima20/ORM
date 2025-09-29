@@ -19,7 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -40,7 +40,7 @@ class Car(models.Model):
 class CarAdmin(admin.ModelAdmin):
     list_display=['car_id','brand','car_model','cos_email','dop']
 
-'''
+```
 ## OUTPUT
 ![alt text](<Screenshot 2025-09-27 190545.png>)
 
